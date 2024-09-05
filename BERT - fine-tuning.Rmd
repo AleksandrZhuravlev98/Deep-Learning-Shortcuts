@@ -328,7 +328,7 @@ plt.show()
 
 
 
-```{python Indian guy 1}
+```{python YouTube guy 1}
 NUM_LABELS = len(questions["party"])
 
 id2label = {id:label for id, label in enumerate(questions["party"])}
@@ -337,7 +337,7 @@ label2id = {label:id for id, label in enumerate(questions["party"])}
 questions["labels"] = questions.party.map(lambda x: label2id[x.strip()])
 ```
 
-```{python indian guy 2}
+```{python YouTube guy 2}
 #Tokeniser
 
 # Model
